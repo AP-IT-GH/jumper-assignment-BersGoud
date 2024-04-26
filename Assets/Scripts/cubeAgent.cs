@@ -65,18 +65,19 @@ public class cubeAgent : Agent
             SetReward(-0.01f);
             rb.AddForce(Vector3.up * jumpForce * 10, ForceMode.Impulse);
         }
-        else
+
+        /*else
         {
             SetReward(0.05f); // Small reward for not jumping
-        }
+        }*/
 
         // Check if the agent is too much to the left or right
-        float xPos = transform.localPosition.x;
+        /*float xPos = transform.localPosition.x;
         if (xPos < -2.24f || xPos > 2.24f) // Define your desired range here
         {
             Debug.Log("Too much on the sides");
             SetReward(-0.01f); // Penalize for being out of desired range
-        }
+        }*/
 
         // Apply movement
         transform.Translate(controlSignal * Time.deltaTime);

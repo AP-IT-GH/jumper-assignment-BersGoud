@@ -2,40 +2,31 @@
     "CubeAgent": {
         "checkpoints": [
             {
-                "steps": 383823,
-                "file_path": "results\\Run1test\\CubeAgent\\CubeAgent-383823.onnx",
-                "reward": -1.2066665947437287,
-                "creation_time": 1714141620.9008877,
+                "steps": 499956,
+                "file_path": "results\\Run1test\\CubeAgent\\CubeAgent-499956.onnx",
+                "reward": -0.5745833137383064,
+                "creation_time": 1714155661.4357278,
                 "auxillary_file_paths": [
-                    "results\\Run1test\\CubeAgent\\CubeAgent-383823.pt"
+                    "results\\Run1test\\CubeAgent\\CubeAgent-499956.pt"
                 ]
             },
             {
-                "steps": 499964,
-                "file_path": "results\\Run1test\\CubeAgent\\CubeAgent-499964.onnx",
-                "reward": -1.1011999368667602,
-                "creation_time": 1714142786.3023586,
+                "steps": 501081,
+                "file_path": "results\\Run1test\\CubeAgent\\CubeAgent-501081.onnx",
+                "reward": -0.1357142531446048,
+                "creation_time": 1714155667.6730428,
                 "auxillary_file_paths": [
-                    "results\\Run1test\\CubeAgent\\CubeAgent-499964.pt"
-                ]
-            },
-            {
-                "steps": 898567,
-                "file_path": "results\\Run1test\\CubeAgent\\CubeAgent-898567.onnx",
-                "reward": -0.9863635423508558,
-                "creation_time": 1714145918.558059,
-                "auxillary_file_paths": [
-                    "results\\Run1test\\CubeAgent\\CubeAgent-898567.pt"
+                    "results\\Run1test\\CubeAgent\\CubeAgent-501081.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 898567,
+            "steps": 501081,
             "file_path": "results\\Run1test\\CubeAgent.onnx",
-            "reward": -0.9863635423508558,
-            "creation_time": 1714145918.558059,
+            "reward": -0.1357142531446048,
+            "creation_time": 1714155667.6730428,
             "auxillary_file_paths": [
-                "results\\Run1test\\CubeAgent\\CubeAgent-898567.pt"
+                "results\\Run1test\\CubeAgent\\CubeAgent-501081.pt"
             ]
         }
     },

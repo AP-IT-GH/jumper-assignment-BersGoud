@@ -99,17 +99,17 @@ public class obstacleSpawn : MonoBehaviour
         if (objectType == "line") // this object is a beam that the ML agent needs to jump over it
         {
             Debug.Log("end reached by beam");
-            FindObjectOfType<cubeAgent>().giveRewardExternally(2.0f);
+            FindObjectOfType<cubeAgent>().giveRewardExternally(3.0f);
         }
         else if (objectType == "wall")
         {
             Debug.Log("end reached by wall");
-            FindObjectOfType<cubeAgent>().giveRewardExternally(0.5f);
+            FindObjectOfType<cubeAgent>().giveRewardExternally(0.8f);
         }
         else
         {
             Debug.Log("end reached by reward");
-            FindObjectOfType<cubeAgent>().giveRewardExternally(-0.1f);
+            FindObjectOfType<cubeAgent>().giveRewardExternally(-0.05f);
         }
 
         Destroy(item);

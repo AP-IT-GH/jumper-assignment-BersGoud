@@ -2,24 +2,24 @@ behaviors:
   CubeAgent:
     trainer_type: ppo
     hyperparameters:
-      batch_size: 128
+      batch_size: 256 # Due to our enviroment being complex
       buffer_size: 2048
       learning_rate: 0.0005
       beta: 0.005
       epsilon: 0.2
-      lambd: 0.9
+      lambd: 0.90
       num_epoch: 5
       learning_rate_schedule: linear
       beta_schedule: constant
       epsilon_schedule: linear
     network_settings:
       normalize: false
-      hidden_units: 128
+      hidden_units: 256 # Due to our enviroment being complex
       num_layers: 2
     reward_signals:
       extrinsic:
-        gamma: 0.90
+        gamma: 0.95
         strength: 1.0
-    max_steps: 15000000
+    max_steps: 1500000
     time_horizon: 64
     summary_freq: 2000

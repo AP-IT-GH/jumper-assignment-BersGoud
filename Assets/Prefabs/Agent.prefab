@@ -198,7 +198,7 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 10000
+  MaxStep: 20000
   moveSpeed: 5
   jumpForce: 20
   rb: {fileID: 5786112372816980534}
