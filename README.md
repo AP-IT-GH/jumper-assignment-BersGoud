@@ -1,5 +1,5 @@
 # Tutorial Jumper
-
+![alt text](https://raw.githubusercontent.com/AP-IT-GH/jumper-assignment-BersGoud/main/screenshot.png)
 ---
 
 ### Overview
@@ -44,6 +44,7 @@ The goal of the agent is to maximize its cumulative reward by avoiding walls, ju
   - -0.05 for navigating past a reward sphere.
 
 ### Observations and Actions
+![alt text](https://raw.githubusercontent.com/AP-IT-GH/jumper-assignment-BersGoud/main/tensorboard.png)
 
 - **Observations**:
 
